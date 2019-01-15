@@ -1,5 +1,5 @@
 const images = {
-  logo: require('./assets/logo2.png'),
+  logo: require('./assets/logo4.png'),
   text: 'exampleTest',
 };
 

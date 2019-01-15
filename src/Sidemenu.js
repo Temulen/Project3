@@ -104,9 +104,9 @@ class SideMenu extends Component {
               <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Doc', {  TabId: 9 })}>
               Амбулаторийн тасаг
               </Text>
-              {/* <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Doc', {  TabId: 10 })}>
+              <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Doc', {  TabId: 10 })}>
               ШҮДНИЙ ТАСАГ
-              </Text> */}
+              </Text>
             </View>
           </View>
 
@@ -158,10 +158,10 @@ class SideMenu extends Component {
               Сэргээн засах уламжлалт эмчилгээний тасаг
               </Text>
               <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Service', {  TabId: 14 })}>
-              Урьдчилсан сэргийлэх тасаг
+              Урьдчилан сэргийлэх үзлэг
               </Text>
               <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Service', {  TabId: 15 })}>
-              Дүрс оношилгоо
+              Дүрс оношилгооны төв
               </Text>
               <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Service', {  TabId: 16 })}>
               Дурангийн тасаг
@@ -177,6 +177,53 @@ class SideMenu extends Component {
               </Text>
               <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Service', {  TabId: 20 })}>
               Интернэт, кофе лаунж
+              </Text>
+            </View>
+          </View>
+
+          <View>
+            <Text style={styles.sectionHeadingStyle}>
+              Үнэ тариф
+            </Text>
+            <View style={styles.navSectionStyle}>
+              <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Feed', {  TabId: 0 })}>
+              СЭРГЭЭН ЗАСАХ, ФИЗИК ЭМЧИЛГЭЭ
+              </Text>
+              <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Feed', {  TabId: 1 })}>
+              ЛАБОРАТОРИ
+              </Text>
+              <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Feed', {  TabId: 2 })}>
+              ЭХО, ДУРАН ОНОШИЛГОО, ЭКГ
+              </Text>
+              <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Feed', {  TabId: 3 })}>
+              НАРИЙН МЭРГЭЖЛИЙН ЭМЧИЙН ҮЗЛЭГ
+              </Text>
+              <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Feed', {  TabId: 4 })}>
+              КОМПЬЮТЕРТ ТОМОГРАФ ШИНЖИЛГЭЭНИЙ ТАРИФ
+              </Text>
+              <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Feed', {  TabId: 5 })}>
+              MRI ШИНЖИЛГЭЭНИЙ ТАРИФ
+              </Text>
+              <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Feed', {  TabId: 6 })}>
+              АРЬС, ХАРШЛЫН ҮЗЛЭГИЙН ТАРИФ
+              </Text>
+              <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Feed', {  TabId: 7 })}>
+              ЭМЭГТЭЙЧҮҮДИЙН ҮЗЛЭГ
+              </Text>
+              <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Feed', {  TabId: 8 })}>
+              ОР ХОНОГИЙН ҮНЭ
+              </Text>
+              <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Feed', {  TabId: 9 })}>
+              ҮНДСЭН БАГЦИЙН ҮНЭ
+              </Text>
+              <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Feed', {  TabId: 10 })}>
+              ДЭЛГЭРЭНГҮЙ БАГЦИЙН ҮНЭ
+              </Text>
+              <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Feed', {  TabId: 11 })}>
+              НАРИЙВЧИЛСАН БАГЦИЙН ҮНЭ
+              </Text>
+              <Text style={styles.navItemStyle} onPress={() => this.props.navigation.navigate('Feed', {  TabId: 12 })}>
+              НУРУУНЫ БАГЦИЙН ҮНЭ
               </Text>
             </View>
           </View>

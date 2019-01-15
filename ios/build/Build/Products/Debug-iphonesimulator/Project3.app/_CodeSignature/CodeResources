@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		s1dU6+V5RpvJOzhq/RzLReGwgv8=
+		t/+El8ccC0JOguGvATooJ+D1/8g=
 		</data>
 		<key>CardboardSDK.bundle/Assets.car</key>
 		<data>
@@ -2466,7 +2466,7 @@
 		</dict>
 		<key>Info.plist</key>
 		<data>
-		Y2kdixIH5ENRpw1C44naGapmgQM=
+		RcXiPea1WPmSX6LPVQPeqNbB+o0=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -2583,11 +2583,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s1dU6+V5RpvJOzhq/RzLReGwgv8=
+			t/+El8ccC0JOguGvATooJ+D1/8g=
 			</data>
 			<key>hash2</key>
 			<data>
-			F9wn9rU7ZHTq/n06PhshHe5XnvH8yoEoD70pJ/VnfT0=
+			NrsCTdGAKZowJLzGaYCDdhOytkGxb8hTG9fEpVOxBWI=
 			</data>
 		</dict>
 		<key>CardboardSDK.bundle/Assets.car</key>
@@ -7189,7 +7189,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -7220,24 +7220,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -7273,13 +7261,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

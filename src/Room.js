@@ -132,7 +132,7 @@ class TabScreen extends React.Component {
                  image={require('../andes.jpg')}
                  displayMode={'embedded'}
                  enableFullscreenButton
-                 enableCardboardButton
+                 enableCardboardButton={false}
                  enableTouchTracking
                  hidesTransitionView
                  enableInfoButton={false}
@@ -153,7 +153,7 @@ class TabScreen1 extends React.Component {
               image={require('../andes.jpg')}
               displayMode={'embedded'}
               enableFullscreenButton
-              enableCardboardButton
+              enableCardboardButton={false}
               enableTouchTracking
               hidesTransitionView
               enableInfoButton={false}
@@ -174,7 +174,7 @@ class TabScreen2 extends React.Component {
               image={require('../andes.jpg')}
               displayMode={'embedded'}
               enableFullscreenButton
-              enableCardboardButton
+              enableCardboardButton={false}
               enableTouchTracking
               hidesTransitionView
               enableInfoButton={false}
@@ -195,7 +195,7 @@ class TabScreen3 extends React.Component {
               image={require('../andes.jpg')}
               displayMode={'embedded'}
               enableFullscreenButton
-              enableCardboardButton
+              enableCardboardButton={false}
               enableTouchTracking
               hidesTransitionView
               enableInfoButton={false}
@@ -216,7 +216,7 @@ class TabScreen4 extends React.Component {
               image={require('../andes.jpg')}
               displayMode={'embedded'}
               enableFullscreenButton
-              enableCardboardButton
+              enableCardboardButton={false}
               enableTouchTracking
               hidesTransitionView
               enableInfoButton={false}

@@ -1,21 +1,21 @@
 dependencies: \
-  /Users/macbook/Documents/react/Project3/node_modules/react-native/Libraries/Text/RCTText.m \
-  /Users/macbook/Documents/react/Project3/node_modules/react-native/Libraries/Text/RCTText.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
-  /Users/macbook/Documents/react/Project3/node_modules/react-native/Libraries/Text/RCTShadowText.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/macbook/Documents/react/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h
+  /Users/macbook/Documents/Project3/node_modules/react-native/Libraries/Text/RCTText.m \
+  /Users/macbook/Documents/Project3/node_modules/react-native/Libraries/Text/RCTText.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/macbook/Documents/Project3/node_modules/react-native/Libraries/Text/RCTShadowText.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/macbook/Documents/Project3/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h

@@ -17,7 +17,6 @@ import {
 import {YellowBox} from 'react-native';
 console.disableYellowBox = true;
 import docData from './data/docData'
-import Meal from './data/mealData'
 
 export default class Doc extends Component {
   render() {
@@ -41,7 +40,7 @@ export default class Doc extends Component {
           <Body>
             <Button transparent large onPress={() => this.props.navigation.navigate('Home')}>
               <Image
-                  source={require('./assets/logo2.png')}
+                  source={require('./assets/logo4.png')}
                   style={{width: '100%', height: '100%',resizeMode: 'contain',marginBottom: 10}}
               />
             </Button>
@@ -120,7 +119,7 @@ class TabScreen extends React.Component {
                     style={styles.image}
                 />
               </View>
-              <View style={{flexDirection: 'column', justifyContent: 'flex-start'}}>
+              <View style={styles.wrap}>
                   <Text style={title1}>{item.title}</Text>
                   <Text style={text1}>{item.text}</Text>
                   <Text style={text2}>{item.edu}</Text>
@@ -151,7 +150,7 @@ class TabScreen1 extends React.Component {
                     style={styles.image}
                 />
               </View>
-              <View style={{flexDirection: 'column'}}>
+              <View style={styles.wrap}>
                   <Text style={title1}>{item.title}</Text>
                   <Text style={text1}>{item.text}</Text>
                   <Text style={text2}>{item.edu}</Text>
@@ -181,7 +180,7 @@ class TabScreen2 extends React.Component {
                     style={styles.image}
                 />
               </View>
-              <View style={{flexDirection: 'column'}}>
+              <View style={styles.wrap}>
                   <Text style={title1}>{item.title}</Text>
                   <Text style={text1}>{item.text}</Text>
                   <Text style={text2}>{item.edu}</Text>
@@ -211,7 +210,7 @@ class TabScreen3 extends React.Component {
                     style={styles.image}
                 />
               </View>
-              <View style={{flexDirection: 'column'}}>
+              <View style={styles.wrap}>
                   <Text style={title1}>{item.title}</Text>
                   <Text style={text1}>{item.text}</Text>
                   <Text style={text2}>{item.edu}</Text>
@@ -241,7 +240,7 @@ class TabScreen4 extends React.Component {
                     style={styles.image}
                 />
               </View>
-              <View style={{flexDirection: 'column'}}>
+              <View style={styles.wrap}>
                   <Text style={title1}>{item.title}</Text>
                   <Text style={text1}>{item.text}</Text>
                   <Text style={text2}>{item.edu}</Text>
@@ -271,7 +270,7 @@ class TabScreen5 extends React.Component {
                     style={styles.image}
                 />
               </View>
-              <View style={{flexDirection: 'column'}}>
+              <View style={styles.wrap}>
                   <Text style={title1}>{item.title}</Text>
                   <Text style={text1}>{item.text}</Text>
                   <Text style={text2}>{item.edu}</Text>
@@ -301,7 +300,7 @@ class TabScreen6 extends React.Component {
                     style={styles.image}
                 />
               </View>
-              <View style={{flexDirection: 'column'}}>
+              <View style={styles.wrap}>
                   <Text style={title1}>{item.title}</Text>
                   <Text style={text1}>{item.text}</Text>
                   <Text style={text2}>{item.edu}</Text>
@@ -331,7 +330,7 @@ class TabScreen7 extends React.Component {
                     style={styles.image}
                 />
               </View>
-              <View style={{flexDirection: 'column'}}>
+              <View style={styles.wrap}>
                   <Text style={title1}>{item.title}</Text>
                   <Text style={text1}>{item.text}</Text>
                   <Text style={text2}>{item.edu}</Text>
@@ -361,7 +360,7 @@ class TabScreen8 extends React.Component {
                     style={styles.image}
                 />
               </View>
-              <View style={{flexDirection: 'column'}}>
+              <View style={styles.wrap}>
                   <Text style={title1}>{item.title}</Text>
                   <Text style={text1}>{item.text}</Text>
                   <Text style={text2}>{item.edu}</Text>
@@ -391,7 +390,7 @@ class TabScreen9 extends React.Component {
                     style={styles.image}
                 />
               </View>
-              <View style={{flexDirection: 'column'}}>
+              <View style={styles.wrap}>
                   <Text style={title1}>{item.title}</Text>
                   <Text style={text1}>{item.text}</Text>
                   <Text style={text2}>{item.edu}</Text>
@@ -412,13 +411,19 @@ class TabScreen9 extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    // flex: 1,
     paddingTop: 20,
     // paddingHorizontal: 100,
     // paddingVertical: 100
     // alignItems: 'center',
     // justifyContent: 'center',
     flexDirection: 'row'
+  },
+  wrap: {
+    flex: 1,
+    flexDirection: 'column',
+    alignSelf: 'flex-end',
+    flexWrap: 'wrap'
   },
   title: {
     fontSize: 25,
@@ -430,7 +435,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     padding: 20,
     color: '#00b0bd',
-    fontStyle: 'italic'
+    fontStyle: 'italic',
     // textAlign: 'center',
     // justifyContent: 'center'
     // padding: 20,

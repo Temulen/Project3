@@ -9,6 +9,8 @@ import Room from './Room';
 import Meal from './Meal';
 import Service from './Service';
 import feedBack from './feedBack';
+import Incentives from './Incentives';
+import Comment from './Comment';
 const Drawer = DrawerNavigator(
   {
     Home: {
@@ -37,6 +39,12 @@ const Drawer = DrawerNavigator(
     },
     Feed: {
       screen: feedBack,
+    },
+    Incentives: {
+      screen: Incentives,
+    },
+    Comment: {
+      screen: Comment,
     },
   },
   {

@@ -15,7 +15,8 @@ import {
 } from 'react-native';
 import {YellowBox} from 'react-native';
 console.disableYellowBox = true;
-import serviceData from './data/serviceData'
+import serviceData from './data/serviceData';
+import docData from './data/docData';
 export default class Service extends Component {
   render() {
     const { params } = this.props.navigation.state;
@@ -38,7 +39,7 @@ export default class Service extends Component {
           <Body>
             <Button transparent large onPress={() => this.props.navigation.navigate('Home')}>
               <Image
-                  source={require('./assets/logo2.png')}
+                  source={require('./assets/logo4.png')}
                   style={{width: '100%', height: '100%',resizeMode: 'contain',marginBottom: 10}}
               />
             </Button>
@@ -116,12 +117,12 @@ export default class Service extends Component {
                   <TabScreen13/>
                 </ScrollView>
               </Tab>
-              <Tab heading="Урьдчилсан сэргийлэх тасаг">
+              <Tab heading="Урьдчилан сэргийлэх үзлэг">
                 <ScrollView>
                   <TabScreen14/>
                 </ScrollView>
               </Tab>
-              <Tab heading="Дүрс оношилгоо">
+              <Tab heading="Дүрс оношилгооны төв">
                 <ScrollView>
                   <TabScreen15/>
                 </ScrollView>
@@ -407,11 +408,22 @@ class TabScreen15 extends React.Component {
         return (
           <View style={styles.container}>
             <Text style={title1}>{serviceData[15].title}</Text>
+            <Text style={text1}>{serviceData[15].text}</Text>
             <Image
                 source={serviceData[15].logo}
                 style={styles.image}
             />
-            <Text style={text1}>{serviceData[15].text}</Text>
+            <Text style={text1}>{serviceData[15].text1}</Text>
+            <Image
+                source={serviceData[15].logo1}
+                style={styles.image}
+            />
+            <Text style={text1}>{serviceData[15].text2}</Text>
+            <Image
+                source={serviceData[15].logo2}
+                style={styles.image}
+            />
+            <Text style={text1}>{serviceData[15].text3}</Text>
           </View>
         );
   }

@@ -39,7 +39,7 @@ export default class Meal extends Component {
           <Body>
             <Button transparent large onPress={() => this.props.navigation.navigate('Home')}>
               <Image
-                  source={require('./assets/logo2.png')}
+                  source={require('./assets/logo4.png')}
                   style={{width: '100%', height: '100%',resizeMode: 'contain',marginBottom: 10}}
               />
             </Button>

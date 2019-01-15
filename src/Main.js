@@ -34,7 +34,7 @@ class Main extends Component {
           </Left>
           <Body>
           <Image
-            source={require('./assets/logo2.png')}
+            source={require('./assets/logo4.png')}
             style={{width: '100%', height: '100%',resizeMode: 'contain',marginBottom: 10}}
             onPress={() => this.props.navigation.navigate('Home')}
           />
@@ -98,7 +98,25 @@ class Main extends Component {
                   style={styles.button}
                 >
                   <View style={{flexDirection: 'row'}}>
-                    <Text style={{color: '#fff', fontSize: 20}}> Сэтгэл ханамж </Text>
+                    <Text style={{color: '#fff', fontSize: 20}}> Үнэ тариф </Text>
+                  </View>
+                </TouchableHighlight>
+
+                <TouchableHighlight
+                  onPress={() => this.props.navigation.navigate('Incentives')}
+                  style={styles.button}
+                >
+                  <View style={{flexDirection: 'row'}}>
+                    <Text style={{color: '#fff', fontSize: 20}}> Урамшуулал </Text>
+                  </View>
+                </TouchableHighlight>
+
+                <TouchableHighlight
+                  onPress={() => this.props.navigation.navigate('Comment')}
+                  style={styles.button}
+                >
+                  <View style={{flexDirection: 'row'}}>
+                    <Text style={{color: '#fff', fontSize: 20}}> Сэтгэгдэл </Text>
                   </View>
                 </TouchableHighlight>
               </View>
