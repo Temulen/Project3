@@ -44,7 +44,11 @@ export default class Meal extends Component {
               />
             </Button>
           </Body>
-          <Right />
+          <Right>
+            <Button transparent onPress={() => this.props.navigation.goBack()}>
+              <Text>Буцах</Text>
+            </Button>
+          </Right>
         </Header>
           <Tabs initialPage={TabId}>
               <Tab heading="Даваа гараг">
@@ -130,7 +134,7 @@ class TabScreen1 extends React.Component {
             <Text style={title1}>{mealData[1].title}</Text>
             <Text style={text1}>{mealData[1].text}</Text>
             <Image
-                source={mealData[0].logo}
+                source={mealData[1].logo}
                 style={styles.image}
             />
           </View>
@@ -145,7 +149,7 @@ class TabScreen2 extends React.Component {
             <Text style={title1}>{mealData[2].title}</Text>
             <Text style={text1}>{mealData[2].text}</Text>
             <Image
-                source={mealData[0].logo}
+                source={mealData[2].logo}
                 style={styles.image}
             />
           </View>
@@ -160,7 +164,7 @@ class TabScreen3 extends React.Component {
             <Text style={title1}>{mealData[3].title}</Text>
             <Text style={text1}>{mealData[3].text}</Text>
             <Image
-                source={mealData[0].logo}
+                source={mealData[3].logo}
                 style={styles.image}
             />
           </View>
@@ -175,7 +179,7 @@ class TabScreen4 extends React.Component {
             <Text style={title1}>{mealData[4].title}</Text>
             <Text style={text1}>{mealData[4].text}</Text>
             <Image
-                source={mealData[0].logo}
+                source={mealData[4].logo}
                 style={styles.image}
             />
           </View>
@@ -190,7 +194,7 @@ class TabScreen5 extends React.Component {
             <Text style={title1}>{mealData[3].title}</Text>
             <Text style={text1}>{mealData[3].text}</Text>
             <Image
-                source={mealData[0].logo}
+                source={mealData[5].logo}
                 style={styles.image}
             />
           </View>
@@ -205,7 +209,7 @@ class TabScreen6 extends React.Component {
             <Text style={title1}>{mealData[4].title}</Text>
             <Text style={text1}>{mealData[4].text}</Text>
             <Image
-                source={mealData[0].logo}
+                source={mealData[6].logo}
                 style={styles.image}
             />
           </View>
@@ -230,8 +234,8 @@ const styles = StyleSheet.create({
     paddingTop: 20,
   },
   image: {
-    width: 200,
-    height: 200,
+    // width: 200,
+    // height: 200,
     resizeMode: 'contain'
   }
 })

@@ -45,7 +45,11 @@ export default class Incentives extends Component {
               />
             </Button>
           </Body>
-          <Right />
+          <Right>
+            <Button transparent onPress={() => this.props.navigation.goBack()}>
+              <Text>Буцах</Text>
+            </Button>
+          </Right>
         </Header>
         <ScrollView>
         <View>

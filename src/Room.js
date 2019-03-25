@@ -61,7 +61,11 @@ export default class Room extends Component {
               />
             </Button>
           </Body>
-          <Right />
+          <Right>
+            <Button transparent onPress={() => this.props.navigation.goBack()}>
+              <Text>Буцах</Text>
+            </Button>
+          </Right>
         </Header>
           <Tabs
             // page={TabId}
@@ -129,7 +133,7 @@ class TabScreen extends React.Component {
              <Text style={title1}>{roomData[0].title}</Text>
                <PanoramaView
                  style={styles.panorama}
-                 image={require('../andes.jpg')}
+                 image={require('../File_001.png')}
                  displayMode={'embedded'}
                  enableFullscreenButton
                  enableCardboardButton={false}
@@ -150,7 +154,7 @@ class TabScreen1 extends React.Component {
             <Text style={title1}>{roomData[1].title}</Text>
             <PanoramaView
               style={styles.panorama}
-              image={require('../andes.jpg')}
+              image={require('../File_001.png')}
               displayMode={'embedded'}
               enableFullscreenButton
               enableCardboardButton={false}
@@ -171,7 +175,7 @@ class TabScreen2 extends React.Component {
             <Text style={title1}>{roomData[2].title}</Text>
             <PanoramaView
               style={styles.panorama}
-              image={require('../andes.jpg')}
+              image={require('../File_001.png')}
               displayMode={'embedded'}
               enableFullscreenButton
               enableCardboardButton={false}
@@ -192,7 +196,7 @@ class TabScreen3 extends React.Component {
             <Text style={title1}>{roomData[3].title}</Text>
             <PanoramaView
               style={styles.panorama}
-              image={require('../andes.jpg')}
+              image={require('../File_001.png')}
               displayMode={'embedded'}
               enableFullscreenButton
               enableCardboardButton={false}
@@ -213,7 +217,7 @@ class TabScreen4 extends React.Component {
             <Text style={title1}>{roomData[4].title}</Text>
             <PanoramaView
               style={styles.panorama}
-              image={require('../andes.jpg')}
+              image={require('../File_001.png')}
               displayMode={'embedded'}
               enableFullscreenButton
               enableCardboardButton={false}

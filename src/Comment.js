@@ -44,7 +44,11 @@ export default class Comment extends Component {
               />
             </Button>
           </Body>
-          <Right />
+          <Right>
+            <Button transparent onPress={() => this.props.navigation.goBack()}>
+              <Text>Буцах</Text>
+            </Button>
+          </Right>
         </Header>
 
         <ScrollView>
